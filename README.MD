@@ -48,9 +48,9 @@ To open your menu, call the `open()` method, and a dialog will pop up asking the
 When they type `say hi`, a dialog will open with the text `Hello World!`.
 
 ```java
-public static void main(String[]args){
-        new MyMenu().open();
-        }
+public static void main(String[]args) {
+    new MyMenu().open();
+}
 ```
 
 ## Advanced Menus
@@ -100,7 +100,7 @@ public class AdditionOption extends OperationOption {
 }
 ```
 
-Next, we need to tell our menu how to use this option type, because a `BasicMenu` does not know how to.
+Next, we need to tell our menu how to use this option type, because a `BasicMenu` only knows how to handle `RunnableOption`s.
 To do this, we create our own `Menu` type and override the `runOption(Option)` method.
 
 ```java
@@ -126,7 +126,21 @@ public class CalculatorMenu extends Menu {
 
 Now, whenever the user selects a `OperationOption`, the user will be asked for 2 numbers for the operation.
 Keep in mind that if an `Operation` of a different type is added to the menu and selected by the user, it will not be
-handled.
+handled by this current method.
+In the same way, the `BasicMenu` only knows how to handle options of the `RunnableOption` type.
+In case you are curious, here is what the `runOperation(Operation)` method looks like inside the `BasicMenu` class:
+
+```java
+public class BasicMenu extends Menu {
+
+    @Override
+    public void runOption(@NotNull Option option) {
+        if (option instanceof RunnableOption runnableOption) {
+            runnableOption.run();
+        }
+    }
+}
+```
 
 ## Avoiding Options
 
