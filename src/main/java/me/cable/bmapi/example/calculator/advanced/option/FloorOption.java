@@ -1,4 +1,4 @@
-package me.cable.practice.menu.calculator.advanced.option;
+package me.cable.bmapi.example.calculator.advanced.option;
 
 import org.jetbrains.annotations.NotNull;
 

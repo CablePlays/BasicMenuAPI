@@ -1,7 +1,7 @@
-package me.cable.practice.menu;
+package me.cable.bmapi.menu;
 
-import me.cable.practice.Main;
-import me.cable.practice.menu.option.Option;
+import me.cable.bmapi.Main;
+import me.cable.bmapi.option.Option;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -16,6 +16,10 @@ public abstract class Menu {
 
     public void addOption(@NotNull Option option) {
         options.add(option);
+    }
+
+    public void addOption(@NotNull String name) {
+        addOption(new Option(name));
     }
 
     private @Nullable Option getOption(@NotNull String input) {

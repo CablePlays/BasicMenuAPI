@@ -1,6 +1,6 @@
-package me.cable.practice;
+package me.cable.bmapi;
 
-import me.cable.practice.menu.MainMenu;
+import me.cable.bmapi.example.MainMenu;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

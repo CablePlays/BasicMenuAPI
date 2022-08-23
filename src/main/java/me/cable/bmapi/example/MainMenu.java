@@ -1,10 +1,10 @@
-package me.cable.practice.menu;
+package me.cable.bmapi.example;
 
-import me.cable.practice.Main;
-import me.cable.practice.menu.basic.BasicMenu;
-import me.cable.practice.menu.basic.sub.SubMenu;
-import me.cable.practice.menu.calculator.CalculatorMenu;
-import me.cable.practice.menu.basic.option.RunnableOption;
+import me.cable.bmapi.Main;
+import me.cable.bmapi.example.calculator.CalculatorMenu;
+import me.cable.bmapi.example.sub.SubMenu;
+import me.cable.bmapi.menu.BasicMenu;
+import me.cable.bmapi.option.RunnableOption;
 
 public class MainMenu extends BasicMenu {
 

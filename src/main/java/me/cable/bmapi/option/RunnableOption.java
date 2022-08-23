@@ -1,6 +1,5 @@
-package me.cable.practice.menu.basic.option;
+package me.cable.bmapi.option;
 
-import me.cable.practice.menu.option.Option;
 import org.jetbrains.annotations.NotNull;
 
 public abstract class RunnableOption extends Option implements Runnable {

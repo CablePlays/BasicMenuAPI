@@ -1,9 +1,9 @@
-package me.cable.practice.menu.calculator.advanced;
+package me.cable.bmapi.example.calculator.advanced;
 
-import me.cable.practice.Main;
-import me.cable.practice.menu.Menu;
-import me.cable.practice.menu.calculator.advanced.option.*;
-import me.cable.practice.menu.option.Option;
+import me.cable.bmapi.Main;
+import me.cable.bmapi.example.calculator.advanced.option.*;
+import me.cable.bmapi.menu.Menu;
+import me.cable.bmapi.option.Option;
 import org.jetbrains.annotations.NotNull;
 
 public class AdvancedCalculatorMenu extends Menu {

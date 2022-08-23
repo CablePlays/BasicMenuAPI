@@ -1,4 +1,4 @@
-package me.cable.practice.menu.calculator.option;
+package me.cable.bmapi.example.calculator.option;
 
 import org.jetbrains.annotations.NotNull;
 

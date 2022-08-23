@@ -1,6 +1,6 @@
-package me.cable.practice.menu.calculator.advanced.option;
+package me.cable.bmapi.example.calculator.advanced.option;
 
-import me.cable.practice.menu.option.Option;
+import me.cable.bmapi.option.Option;
 import org.jetbrains.annotations.NotNull;
 
 public abstract class SingleNumberOperationOption extends Option {

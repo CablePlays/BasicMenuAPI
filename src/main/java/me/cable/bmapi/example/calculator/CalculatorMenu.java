@@ -1,11 +1,11 @@
-package me.cable.practice.menu.calculator;
+package me.cable.bmapi.example.calculator;
 
-import me.cable.practice.Main;
-import me.cable.practice.menu.Menu;
-import me.cable.practice.menu.basic.option.RunnableOption;
-import me.cable.practice.menu.calculator.advanced.AdvancedCalculatorMenu;
-import me.cable.practice.menu.calculator.option.*;
-import me.cable.practice.menu.option.Option;
+import me.cable.bmapi.Main;
+import me.cable.bmapi.example.calculator.advanced.AdvancedCalculatorMenu;
+import me.cable.bmapi.example.calculator.option.*;
+import me.cable.bmapi.menu.Menu;
+import me.cable.bmapi.option.Option;
+import me.cable.bmapi.option.RunnableOption;
 import org.jetbrains.annotations.NotNull;
 
 public class CalculatorMenu extends Menu {

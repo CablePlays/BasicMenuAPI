@@ -1,8 +1,7 @@
-package me.cable.practice.menu.basic;
+package me.cable.bmapi.menu;
 
-import me.cable.practice.menu.Menu;
-import me.cable.practice.menu.option.Option;
-import me.cable.practice.menu.basic.option.RunnableOption;
+import me.cable.bmapi.option.Option;
+import me.cable.bmapi.option.RunnableOption;
 import org.jetbrains.annotations.NotNull;
 
 public class BasicMenu extends Menu {

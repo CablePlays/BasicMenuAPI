@@ -1,4 +1,4 @@
-package me.cable.practice.menu.option;
+package me.cable.bmapi.option;
 
 import org.jetbrains.annotations.NotNull;
 

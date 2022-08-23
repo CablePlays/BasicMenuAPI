@@ -1,6 +1,6 @@
-package me.cable.practice.menu.calculator.option;
+package me.cable.bmapi.example.calculator.option;
 
-import me.cable.practice.menu.option.Option;
+import me.cable.bmapi.option.Option;
 import org.jetbrains.annotations.NotNull;
 
 public abstract class DoubleNumberOperationOption extends Option {
