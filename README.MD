@@ -67,7 +67,7 @@ To do this, we need to create our own option type.
 ```java
 public abstract class OperationOption extends Option {
 
-    public DoubleNumberOperationOption(@NotNull String name) {
+    public OperationOption(@NotNull String name) {
         super(name);
     }
 
@@ -112,7 +112,7 @@ public class CalculatorMenu extends Menu {
 
     @Override
     public void runOption(@NotNull Option option) {
-        if (option instanceof DoubleNumberOperationOption operationOption) {
+        if (option instanceof OperationOption operationOption) {
             double num1 = Double.parseDouble(Main.input("Provide the first number"));
             double num2 = Double.parseDouble(Main.input("Provide the second number"));
             double answer = operationOption.calculate(num1, num2);
